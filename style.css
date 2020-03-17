@@ -1,0 +1,222 @@
+@font-face{
+    font-family: "alex-brush";
+    src: url("ressources/polices/alex-brush/AlexBrush-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Open-Sans";
+    src: url("ressources/polices/open-sans/OpenSans-Regular.ttf");
+}
+
+h1{
+    font-family: "alex-brush", Arial, sans-serif;
+
+}
+p{
+    font-family: "Open-Sans", Arial, sans-serif;
+}
+.header
+{
+    background-color: green;
+    display: block;
+
+}
+.header p {
+    text-align: center;
+}
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: lightgreen;
+    margin: 0 10px;
+    
+}
+
+.menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    color: white;
+    text-decoration: underline;
+    font-size:1.4em;
+}
+
+#logo
+{
+
+    width: 80%;
+}
+
+.img1
+{
+    height: auto;
+    width: 40vw;
+    padding: 10px 20px;
+}
+
+.img2
+{
+    height: auto;
+    width: 40vw;
+    padding: 10px 20px 10px 20px;
+}
+.galerie1
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section1{
+    text-align: center;
+    background-color: darkgrey;
+    display: block;
+    padding-bottom: 20px;
+
+}
+
+.section1 > p, .section1 > h1{
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.section2
+{
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+.galerie2
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-between;
+}
+
+
+.background{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    padding:20px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+.img
+{
+    display: block;
+    width:80%;
+    height: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.title2
+{
+    background-color: grey;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+
+.section3 > h1{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.section3{
+    background-color: white;
+    display: block;
+    text-align: justify;
+
+}
+
+.section3 > p{
+    padding: 20px 10px;
+    text-align: center;
+
+}
+.colo
+{
+    background-color: darkgrey;
+    padding: 20px;
+}
+.section4 > .title2{
+    background-color: black;
+    color:white; 
+
+}
+
+.section4 > .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social
+{
+    width: 5em;
+}
+
+.galerie4
+{
+    display: flex;
+    flex-direction: column;
+    background-color: darkgrey;
+    justify-content: space-between;
+}
+.background4{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding:20px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.temoignage{
+    display: block;
+    font-size:1.0em;
+    background-color: white;
+    padding: 30px;
+
+}
+
+.section5 > .title2{
+    background-color: lightgreen;
+
+}
+
+footer
+{
+    background-color: blue;
+    margin: 0 10px;
+    
+}
+
+
+@media all and (min-width: 480px) {
+
+}
+
+@media all and (min-width: 736px) {
+
+}
+
+
+@media all and (min-width: 980px) {
+
+}
